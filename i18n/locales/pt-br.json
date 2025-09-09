@@ -1,0 +1,41 @@
+{
+  "pageTitle": "TWA Equipamentos e Serviços Industriais - {page}",
+  "menu": {
+    "whoWeAre": "Quem somos",
+    "trainings": "Treinamentos",
+    "projects": "Projetos",
+    "maintenance": "Manutenção",
+    "craneRental": "Locação de Guindastes",
+    "contact": "Contato"
+  },
+  "home": {
+    "pageTitle": "Home"
+  },
+  "whoWeAre": {
+    "pageTitle": "Quem somos"
+  },
+  "projects": {
+    "pageTitle": "Projetos"
+  },
+  "maintenance": {
+    "pageTitle": "Manutenção"
+  },
+  "craneRental": {
+    "pageTitle": "Locação de Guindastes"
+  },
+  "contact": {
+    "street": "Avenida Juscelino Kubitschek, Nº S/N",
+    "complement": "Centro",
+    "cityState": "Nobres - MT",
+    "cep": "CEP: 78470-000",
+    "phone": "+55 65 99929-3004"
+  },
+  "social": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn"
+  },
+  "developedBy": "Desenvolvido por: Agência G5",
+  "allRightsReserved": "Todos os direitos reservados ",
+  "companyFooter": "© 2025 FDS Construtora."
+}
