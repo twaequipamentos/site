@@ -7,7 +7,7 @@
       </div>
     </div>
     <!-- <AtomCarousel :images="banners" id="clientes" /> -->
-    <div class="flex justify-center mb-8">
+    <div class="flex justify-center mb-10">
       <div class="max-w-[1440px] px-8 px-xl-0">
         <div class="text-xl text-red mb-2">Conheça a </div>
         <div class="lg:flex align-center">
