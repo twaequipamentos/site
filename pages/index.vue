@@ -95,7 +95,7 @@
               Investimos constantemente em treinamentos e capacitações, incluindo os cursos obrigatórios conforme as Normas Regulamentadoras (NRs), como NR-10, NR-12, NR-18, NR-33, NR-35, entre outras. Esses treinamentos são fundamentais para assegurar que nossos profissionais estejam preparados, conscientes e qualificados para atuar com segurança, qualidade e alto desempenho em qualquer ambiente industrial.
             </div>
             <div class="text-center text-md-start">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="openWhatsApp">
+              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('treinamentos')">
                 <div class="flex align-center">
                   <span>Saiba mais</span>
                   <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
@@ -161,7 +161,7 @@
               </div>
             </div>
             <div class="text-center text-md-start mt-8 lg:mt-2">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="openWhatsApp">
+              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('projetos')">
                 <div class="flex align-center">
                   <span>Saiba mais</span>
                   <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
@@ -191,7 +191,7 @@
               <AtomImage :imageUrl="maintenance" width="100%" height="auto" class="rounded-lg" />
             </div>
             <div class="text-center text-md-start mt-8 mb-10 lg:mb-0">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="openWhatsApp">
+              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('manutencao')">
                 <div class="flex align-center">
                   <span>Saiba mais</span>
                   <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
@@ -265,7 +265,7 @@
               </v-row>
             </div>
             <div class="text-center text-md-start mt-8">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="openWhatsApp">
+              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('locacao-guindastes')">
                 <div class="flex align-center">
                   <span>Saiba mais</span>
                   <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
