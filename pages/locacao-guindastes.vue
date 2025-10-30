@@ -76,7 +76,7 @@
         <span class="text-xl text-red">Fale com a</span>
         <span class="text-2xl mb-4">TWA Equipamentos agora mesmo!</span>
         <span class="text-sm text-grey500">
-          Entre em contato com o time de vendas da TWA Equipamentos agora mesmo e tire todas as suas dúvidas sobre a locação de Guindastes e Guindautos, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
+          Entre em contato com a Equipe do Comercial da TWA Equipamentos agora mesmo e tire todas as suas dúvidas sobre a locação de Guindastes e Guindautos, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
         </span>
       </div>
       <div class="mt-4 w-[255px]">

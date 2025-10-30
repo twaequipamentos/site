@@ -5,7 +5,7 @@
 				<AtomIcon :name="icon" class="!w-14 !h-14 !z-20 text-white"></AtomIcon>
 			</div>
 		</div> -->
-		<IonCard :variant="variant" :elevation="elevation" class="card-solution rounded-xl h-full z-0 py-4 flex align-center"> 
+		<IonCard v-bind="$attrs" :variant="variant" :elevation="elevation" class="card-solution rounded-xl h-full z-0 py-4 flex align-center"> 
 			<div class="d-flex flex-column justify-space-between pa-4 h-full">
 				<div>
 					<div class="flex flex-col align-center">

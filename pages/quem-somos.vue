@@ -25,7 +25,7 @@
                     <AtomIcon name="Engineering" class="!w-[80px] !h-[80px] text-black"></AtomIcon>
                   </div>
                   <div class="text-md">
-                    A TWA oferece um portfólio completo de serviços, incluindo calderaria, montagem industrial, consultoria, planejamento, projetos e fabricação de estruturas e componentes para plantas industriais. Conta com uma equipe técnica formada por engenheiros mecânicos e de segurança, planejadores, inspetores de qualidade e projetistas, garantindo atendimento especializado e a plena satisfação dos seus clientes.
+                    A TWA Equipamentos e Serviços Industriais, atua no mercado desde 2015, quando foi fundada em Sertãozinho/SP. Conta com o apoio de profissionais com ampla experiência no setor, valendo-se de conhecimento aplicado para o desenvolvimento de soluções, oferecendo um portfólio completo para indústrias de categoria leve e pesada em diversos segmentos, a TWA Equipamentos e Serviços Industriais, utiliza modernas técnicas de caldeiraria e montagem industrial, incluindo também consultoria, planejamento, projetos, montagem de fabricação das mais diversas estruturas e componentes de plantas industriais. Com a mão-de-obra especializada e corpo técnico formado por: Engenheiros, planejadores, inspetores de qualidade e projetistas, para um atendimento completo e garantindo a satisfação de nossos clientes. 
                   </div>
                 </div>
                 <div class="text-center text-md-start mt-8">
@@ -62,26 +62,52 @@
       <v-row class="w-full">
         <v-col cols="6" md="3" class="px-0 py-md-8">
           <div class="w-full flex align-center">
-            <AtomIcon name="Security" class="!w-[60px] !h-[60px] lg:!w-[120px] lg:!h-[120px] text-primary"></AtomIcon>
+            <AtomIcon name="Security" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px] text-primary"></AtomIcon>
             <span class="text-grey500">Segurança</span>
           </div>
         </v-col>
         <v-col cols="6" md="3" class="px-0 py-md-8">
           <div class="w-full flex align-center">
-            <AtomIcon name="Trophy" class="!w-[60px] !h-[60px] lg:!w-[120px] lg:!h-[120px] text-primary"></AtomIcon>
+            <AtomIcon name="Trophy" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px] text-primary"></AtomIcon>
             <span class="text-grey500">Excelência</span>
           </div>
         </v-col>
         <v-col cols="6" md="3" class="px-0 py-md-8">
           <div class="w-full flex align-center">
-            <AtomIcon name="Schedule" class="!w-[60px] !h-[60px] lg:!w-[120px] lg:!h-[120px]  text-primary"></AtomIcon>
+            <AtomIcon name="Schedule" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px]  text-primary"></AtomIcon>
             <span class="text-grey500">Pontualidade</span>
           </div>
         </v-col>
         <v-col cols="6" md="3" class="px-0 py-md-8">
           <div class="w-full flex align-center">
-            <AtomIcon name="Handshake" class="!w-[60px] !h-[60px] lg:!w-[120px] lg:!h-[120px]  text-primary"></AtomIcon>
+            <AtomIcon name="Handshake" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px]  text-primary"></AtomIcon>
             <span class="text-grey500">Compromisso</span>
+          </div>
+        </v-col>
+      </v-row>
+      <v-row class="w-full">
+        <v-col cols="6" md="3" class="px-0 py-md-8">
+          <div class="w-full flex align-center">
+            <AtomIcon name="Integrity" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px] text-primary"></AtomIcon>
+            <span class="text-grey500">Integridade</span>
+          </div>
+        </v-col>
+        <v-col cols="6" md="3" class="px-0 py-md-8">
+          <div class="w-full flex align-center">
+            <AtomIcon name="Bolt" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px] text-primary"></AtomIcon>
+            <span class="text-grey500">Determinação</span>
+          </div>
+        </v-col>
+        <v-col cols="6" md="3" class="px-0 py-md-8">
+          <div class="w-full flex align-center">
+            <AtomIcon name="Support" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px]  text-primary"></AtomIcon>
+            <span class="text-grey500">Disponibilidade</span>
+          </div>
+        </v-col>
+        <v-col cols="6" md="3" class="px-0 py-md-8">
+          <div class="w-full flex align-center">
+            <AtomIcon name="Accessibility" class="!w-[60px] !h-[60px] lg:!w-[90px] lg:!h-[90px]  text-primary"></AtomIcon>
+            <span class="text-grey500">Humildade</span>
           </div>
         </v-col>
       </v-row>
@@ -89,7 +115,7 @@
         <span class="text-xl text-red">Fale com a</span>
         <span class="text-2xl mb-4">TWA Equipamentos agora mesmo!</span>
         <span class="text-sm text-grey500">
-          Entre em contato com o time de vendas da TWA Equipamentos agora mesmo e tire todas as suas dúvidas, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
+          Entre em contato com a Equipe do Comercial da TWA Equipamentos agora mesmo e tire todas as suas dúvidas, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
         </span>
       </div>
       <div class="mt-4 w-[255px]">

@@ -6,7 +6,8 @@
     "projects": "Projetos",
     "maintenance": "Manutenção",
     "craneRental": "Locação de Guindastes",
-    "contact": "Contato"
+    "contact": "Contato",
+    "work": "Trabalhe Conosco"
   },
   "home": {
     "pageTitle": "Home"
@@ -27,7 +28,7 @@
     "street": "Av. Marginal Maurílio Bachega, 2253",
     "complement": "Jardim Nova Europa 1",
     "cityState": "Sertãozinho - SP",
-    "cep": "CEP: 14177-290",
+    "cep": "CEP: 14.177-502",
     "phone": "+55 (16) 3513-9663"
   },
   "social": {

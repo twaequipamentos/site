@@ -6,34 +6,36 @@
       </li>
       <li>
         <a href="#" @click.prevent="goToPage('treinamentos')" class="highlight-menu text-uppercase text-sm">{{$t('menu.trainings')}}</a>
+        <div class="dropdown text-xs">
+          <a href="#" @click.prevent="goToPage('treinamentos')">NR's</a>
+          <a href="#" @click.prevent="goToPage('lideranca')">Liderança</a>
+          <a href="#" @click.prevent="goToPage('campanhas-sociais')">Campanhas sociais</a>
+        </div>
       </li>
       <li>
-        <a href="#" @click.prevent="goToPage('projetos')" class="highlight-menu text-uppercase text-sm">{{$t('menu.projects')}}</a>
-        <!-- <div class="dropdown text-sm">
-          <a href="/projetos#curva-duto-lavador-gases">Curva e Duto Lavador de Gases</a>
-          <a href="/projetos#duto-gases">Dutos de Gases</a>
-          <a href="#">Economizador</a>
-          <a href="#">Guincho Hilo</a>
-          <a href="#">Lavador de Gases</a>
-        </div> -->
+        <a href="#" class="highlight-menu text-uppercase text-sm">Serviços</a>
+        <div class="dropdown text-xs">
+          <a href="#" @click.prevent="goToPage('qualidade')">Qualidade</a>
+          <a href="#" @click.prevent="goToPage('projetos-executados')">Projetos Executados</a>
+          <a href="#" @click.prevent="goToPage('fabricacao-montagem-equipamentos-industriais')">Fabricação Equip. Industriais</a>
+          <a href="#" @click.prevent="goToPage('locacao-guindastes')">Locação de Guindastes</a>
+        </div>
       </li>
       <li>
         <a href="#" @click.prevent="goToPage('manutencao')" class="highlight-menu text-uppercase text-sm">{{$t('menu.maintenance')}}</a>
-        <!-- <div class="dropdown text-sm">
-          <a href="#">Cozedores</a>
-          <a href="#">Cristalizadores</a>
-          <a href="#">Lavadores de Gases</a>
-          <a href="#">Sementeira</a>
-        </div> -->
       </li>
-      <li>
+      <!-- <li>
         <a href="#" @click.prevent="goToPage('locacao-guindastes')" class="highlight-menu text-uppercase text-sm">{{$t('menu.craneRental')}}</a>
+      </li> -->
+      <li>
+        <a href="#" @click.prevent="showModalWork" class="highlight-menu text-uppercase text-sm">{{$t('menu.work')}}</a>
       </li>
       <li>
         <NuxtLink :to="`https://wa.me/5516981735919?text=${encodeURIComponent('Olá! Gostaria de tirar algumas dúvidas sobre Equipamentos Industriais e Serviços')}`" class="highlight-menu text-uppercase text-sm" target="_blank"> {{ $t('menu.contact') }} </NuxtLink>
       </li>
     </ul>
   </nav>
+  <MoleculeModalWork v-model:dialog="dialogWork" @cancel="closeModalWork"/>
 </template>
 
 <script setup lang="ts">
@@ -42,6 +44,17 @@
   const goToPage = (path: any) => {
 		router.push({path: path});
 	}
+
+  const dialogWork = ref(false)
+  
+	const showModalWork = () => {
+		dialogWork.value = true
+	}
+
+	const closeModalWork = () => {
+		dialogWork.value = false;
+	}
+
 </script>
 
 <style lang="scss">

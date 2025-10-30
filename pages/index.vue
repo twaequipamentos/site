@@ -1,84 +1,89 @@
 <template>
   <div class="bg-black">
     <div class="flag flex justify-center">
-      <div class="text-white max-w-[1440px] p-6 mt-[80px]">
-        <div class="lg:text-7xl text-4xl font-bold lg:leading-[70px]">Transformamos tecnologia em soluções seguras, precisas e pontuais.</div>
-        <div class="text-red text-3xl mt-8 ">Soluções feitas para quem não pode parar.</div>
+      <div class="text-white max-w-[1440px] p-6 mt-[200px]">
+        <AtomAnimationFocus>
+          <div class="lg:text-7xl text-4xl font-bold lg:leading-[70px]">Transformamos tecnologia em soluções seguras, precisas e pontuais.</div>
+          <div class="text-red text-3xl mt-8 ">Soluções feitas para quem não pode parar.</div>
+        </AtomAnimationFocus>
       </div>
     </div>
-    <!-- <AtomCarousel :images="banners" id="clientes" /> -->
-    <div class="flex justify-center mb-10">
-      <div class="max-w-[1440px] px-8 px-xl-0">
-        <div class="text-xl text-red mb-2">Conheça a </div>
-        <div class="lg:flex align-center">
-          <div class="lg:w-[55%]">
-            <div class="text-3xl">TWA Equipamentos e Serviços Industriais</div>
-            <div class="flex mt-4">
-              <!-- <div class="pa-8">Video ou Foto</div> -->
-              <div class="lg:pr-8">
-                <div class="my-4 flex">
-                  <div class="pr-4 hidden lg:flex">
-                    <AtomIcon name="Factory" class="!w-[80px] !h-[80px] text-white"></AtomIcon>
-                  </div>
-                  <div class="text-md">
-                    Fundada em 2015, em Sertãozinho/SP, a TWA Equipamentos e Serviços Industriais se consolidou como uma referência no mercado de soluções industriais. Com o apoio de profissionais altamente capacitados e experientes, a empresa aplica seu vasto conhecimento para desenvolver soluções personalizadas que atendem às necessidades de indústrias dos segmentos leve e pesado.
-                  </div>
-                </div>
-                <div class="border-t-[1px] border-red-500"></div>
-                <div class="my-4 flex">
-                  <div class="pr-4 hidden lg:flex">
-                    <AtomIcon name="Engineering" class="!w-[80px] !h-[80px] text-white"></AtomIcon>
-                  </div>
-                  <div class="text-md">
-                    A TWA oferece um portfólio completo de serviços, incluindo calderaria, montagem industrial, consultoria, planejamento, projetos e fabricação de estruturas e componentes para plantas industriais. Conta com uma equipe técnica formada por engenheiros mecânicos e de segurança, planejadores, inspetores de qualidade e projetistas, garantindo atendimento especializado e a plena satisfação dos seus clientes.
-                  </div>
-                </div>
-                <div class="text-center text-md-start mt-8">
-                  <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('quem-somos')">
-                    <div class="flex align-center">
-                      <span>Conheça mais sobre nós </span>
-                      <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
-                      </AtomIcon>
+      <div class="flex justify-center mb-16">
+        <AtomAnimationFocus>
+        <div class="max-w-[1440px] px-8 px-xl-0">
+          <div class="text-xl text-red mb-2">Conheça a </div>
+          <div class="lg:flex align-center">
+            <div class="lg:w-[55%]">
+              <div class="text-3xl">TWA Equipamentos e Serviços Industriais</div>
+              <div class="flex mt-4">
+                <!-- <div class="pa-8">Video ou Foto</div> -->
+                <div class="lg:pr-8">
+                  <div class="my-4 flex">
+                    <div class="pr-4 hidden lg:flex">
+                      <AtomIcon name="Factory" class="!w-[80px] !h-[80px] text-white"></AtomIcon>
                     </div>
-                  </AtomButton>
+                    <div class="text-md">
+                      A TWA Equipamentos e Serviços Industriais, atua no mercado desde 2015, quando foi fundada em Sertãozinho/SP. Conta com o apoio de profissionais com ampla experiência no setor, valendo-se de conhecimento aplicado para o desenvolvimento de soluções, oferecendo um portfólio completo para indústrias de categoria leve e pesada em diversos segmentos, a TWA Equipamentos e Serviços Industriais, utiliza modernas técnicas de caldeiraria e montagem industrial, incluindo também consultoria, planejamento, projetos, montagem de fabricação das mais diversas estruturas e componentes de plantas industriais.
+                    </div>
+                  </div>
+                  <div class="border-t-[1px] border-red-500"></div>
+                  <div class="my-4 flex">
+                    <div class="pr-4 hidden lg:flex">
+                      <AtomIcon name="Engineering" class="!w-[80px] !h-[80px] text-white"></AtomIcon>
+                    </div>
+                    <div class="text-md">
+                      Com a mão-de-obra especializada e corpo técnico formado por: Engenheiros, planejadores, inspetores de qualidade e projetistas, para um atendimento completo e garantindo a satisfação de nossos clientes. 
+                    </div>
+                  </div>
+                  <div class="text-center text-md-start mt-8">
+                    <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('quem-somos')">
+                      <div class="flex align-center">
+                        <span>Conheça mais sobre nós </span>
+                        <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
+                        </AtomIcon>
+                      </div>
+                    </AtomButton>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="lg:w-[45%] mt-10"> 
-            <AtomImage :imageUrl="twaCompany" width="100%" height="auto" class="rounded-lg" />
+            <div class="lg:w-[45%]"> 
+              <AtomImage :imageUrl="twaCompany" width="100%" height="auto" class="rounded-lg" />
+            </div>
           </div>
         </div>
+        </AtomAnimationFocus>
       </div>
-    </div>
 
     <v-row class="bg-grey-500 mt-12 !m-0">
       <v-col cols="12" md="3" class="flex align-center justify-center h-[200px]">
         <div class="text-center rounded-lg">
-          <div class="text-5xl font-weight-bold text-red">+1000</div>
+          <!-- <AtomCounting targetNumber="150" color="green" :plus="true" :duration="3000" /> -->
+          <!-- <div class="text-5xl font-weight-bold text-red">+150</div> -->
+          <AtomCounting targetNumber="150" class="text-red" :plus="true" :duration="3000" />
           <div class="text-xl mt-2">projetos executados</div>
         </div>
       </v-col>
       <v-col cols="12" md="3" class="p-4 bg-white flex align-center justify-center h-[200px]">
         <div class="text-center">
-          <div class="text-5xl font-weight-bold">+60</div>
+          <AtomCounting targetNumber="300" class="text-black" :plus="true" :duration="3000" />
           <div class="text-xl mt-2">colaboradores</div>
         </div>
       </v-col>
       <v-col cols="12" md="3" class="p-4 flex align-center justify-center h-[200px]">
         <div class="text-center">
-          <div class="text-5xl font-weight-bold text-red">+15</div>
+          <AtomCounting targetNumber="10" class="text-red" :plus="true" :duration="3000" />
           <div class="text-xl mt-2">estados atendidos</div>
         </div>
       </v-col>
       <v-col cols="12" md="3" class="p-4 bg-white flex align-center justify-center h-[200px]">
         <div class="text-center">
-          <div class="text-5xl font-weight-bold">+10</div>
+          <AtomCounting targetNumber="10" class="text-black" :plus="false" :duration="3000" />
           <div class="text-xl mt-2">anos de experiência</div>
         </div>
       </v-col>
     </v-row>
-
+    
     <div class="flex justify-center my-10">
       <div class="max-w-[1440px]">
         <div class="lg:flex my-10 mx-6 lg:mx-0">
@@ -86,26 +91,30 @@
             <AtomImage :imageUrl="treinamento" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="lg:w-[60%] lg:ml-8">
-            <div class="text-xl text-red mb-2">Treinamento e</div>
-            <div class="text-3xl mb-4">Capacitação de Profissionais</div>
-            <div class="text-md mb-4">
-              Valorizamos o capital humano como nosso maior patrimônio. A equipe de Segurança do Trabalho da TWA atua com excelência, promovendo a humanização, o cuidado genuíno e o compromisso com a integridade
-            </div>
-            <div class="text-md mb-10">
-              Investimos constantemente em treinamentos e capacitações, incluindo os cursos obrigatórios conforme as Normas Regulamentadoras (NRs), como NR-10, NR-12, NR-18, NR-33, NR-35, entre outras. Esses treinamentos são fundamentais para assegurar que nossos profissionais estejam preparados, conscientes e qualificados para atuar com segurança, qualidade e alto desempenho em qualquer ambiente industrial.
-            </div>
-            <div class="text-center text-md-start">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('treinamentos')">
-                <div class="flex align-center">
-                  <span>Saiba mais</span>
-                  <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
-                  </AtomIcon>
-                </div>
-              </AtomButton>
-            </div>
+            <AtomAnimationFocus>
+              <div class="text-xl text-red mb-2">Treinamento e</div>
+              <div class="text-3xl mb-4">Capacitação de Profissionais</div>
+              <div class="text-md mb-4">
+                Valorizamos o capital humano como nosso maior patrimônio. A equipe de Segurança do Trabalho da TWA atua com excelência, promovendo a humanização, o cuidado genuíno e o compromisso com a integridade
+              </div>
+              <div class="text-md mb-10">
+                Investimos constantemente em treinamentos e capacitações, incluindo os cursos obrigatórios conforme as Normas Regulamentadoras (NRs), como NR-10, NR-12, NR-18, NR-33, NR-35, entre outras. Esses treinamentos são fundamentais para assegurar que nossos profissionais estejam preparados, conscientes e qualificados para atuar com segurança, qualidade e alto desempenho em qualquer ambiente industrial.
+              </div>
+              <div class="text-center text-md-start">
+                <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('treinamentos')">
+                  <div class="flex align-center">
+                    <span>Saiba mais</span>
+                    <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
+                    </AtomIcon>
+                  </div>
+                </AtomButton>
+              </div>
+            </AtomAnimationFocus>
           </div>
         </div>
-        <MoleculeSolutions :items="trainingList" class="p-4" />
+        <AtomAnimationFocus>
+          <MoleculeSolutions :items="trainingList" class="p-4" />
+        </AtomAnimationFocus>
       </div>
     </div>
 
@@ -118,131 +127,101 @@
 
     </div>
     
-    <div class="flex justify-center py-4 lg:py-20">
+    <div class="flex justify-center py-8 lg:py-20">
       <div class="max-w-[1440px] px-8 px-xl-0">
-        <div class="flex align-start mb-4">
-          <div class="w-[100%]">
-            <div class="text-xl text-red mb-2">Qualidade em </div>
-            <div class="text-3xl">Nossos Serviços</div>
-            <div class="flex">
-              <!-- <div class="pa-8">Video ou Foto</div> -->
-              <div class="lg:pr-8">
-                <div class="my-2 flex">
-                  <div class="text-md">
-                    Contamos com uma equipe especializada que acompanha todas as etapas do processo de produção, garantindo o uso de matéria-prima certificada e a execução rigorosa do controle de qualidade. Realizamos inspeções técnicas, testes hidrostáticos e emitimos as respectivas ARTs, assegurando ao cliente a excelência e a conformidade do produto final.
+        <AtomAnimationFocus>
+          <div class="flex align-start mb-4">
+            <div class="w-[100%]">
+              <div class="text-xl text-red mb-2">Qualidade em </div>
+              <div class="text-3xl">Nossos Serviços</div>
+              <div class="flex">
+                <!-- <div class="pa-8">Video ou Foto</div> -->
+                <div class="lg:pr-8">
+                  <div class="my-2 flex">
+                    <div class="text-md">
+                      Contamos com uma equipe especializada que acompanha todas as etapas do processo de produção, garantindo o uso de matéria-prima certificada e a execução rigorosa do controle de qualidade. Realizamos inspeções técnicas, testes hidrostáticos e emitimos as respectivas ARTs, assegurando ao cliente a excelência e a conformidade do produto final.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- <div class="w-[45%]"> 
+              <AtomImage :imageUrl="twaServices" width="100%" height="auto" class="rounded-tr-[200px] rounded-bl-[200px]" />
+            </div> -->
           </div>
-          <!-- <div class="w-[45%]"> 
-            <AtomImage :imageUrl="twaServices" width="100%" height="auto" class="rounded-tr-[200px] rounded-bl-[200px]" />
-          </div> -->
-        </div>
-        <div class="lg:flex align-start">
-          <div class="lg:w-[27%] my-8 my-md-0"> 
-            <AtomImage :imageUrl="manufacturingMountain" width="100%" height="auto" class="rounded-lg" />
-          </div>
-          <div class="lg:w-[73%] lg:ml-10">
-            <div class="text-3xl">Fabricação e Montagem de Equipamentos Industriais</div>
-            <div class="flex">
-              <div class="lg:pr-8">
-                <div class="my-2 flex flex-column">
-                  <div class="text-md mb-2">
-                    Aplicamos tecnologias de ponta e metodologias avançadas para garantir eficiência em todas as etapas do processo. Nossas operações são otimizadas para reduzir o tempo de ciclo, eliminar desperdícios e aumentar a produtividade.
-                  </div>
-                  <div class="text-md mb-2">
-                    Cada projeto é planejado e executado com rigor, assegurando qualidade, cumprimento de prazos e excelente custo-benefício. Utilizamos matérias-primas de procedência comprovada e contamos com fornecedores criteriosamente selecionados.
-                  </div>
-                  <div class="text-md">
-                    Fabricamos e montamos diversos equipamentos industriais, como Curvas e Dutos Lavadores de Gases, Dutos de Gases, Economizadores, Guinchos Hilo, além de Plataformas e Mezaninos — sempre com foco em desempenho, segurança e as necessidades de cada cliente.
+        </AtomAnimationFocus>
+        <AtomAnimationFocus>
+          <div class="lg:flex align-start">
+            <div class="lg:w-[27%] my-8 my-md-0"> 
+              <AtomImage :imageUrl="manufacturingMountain" width="100%" height="auto" class="rounded-lg" />
+            </div>
+            <div class="lg:w-[73%] lg:ml-10">
+              <div class="text-3xl">Fabricação e Montagem de Equipamentos Industriais</div>
+              <div class="flex">
+                <div class="lg:pr-8">
+                  <div class="my-2 flex flex-column">
+                    <div class="text-md mb-2">
+                      Aplicamos tecnologias de ponta e metodologias avançadas para garantir eficiência em todas as etapas do processo. Nossas operações são otimizadas para reduzir o tempo de ciclo, eliminar desperdícios e aumentar a produtividade.
+                    </div>
+                    <div class="text-md mb-2">
+                      Cada projeto é planejado e executado com rigor, assegurando qualidade, cumprimento de prazos e excelente custo-benefício. Utilizamos matérias-primas de procedência comprovada e contamos com fornecedores criteriosamente selecionados.
+                    </div>
+                    <div class="text-md">
+                      Fabricamos e montamos diversos equipamentos industriais, como Curvas e Dutos Lavadores de Gases, Dutos de Gases, Economizadores, Guinchos Hilo, além de Plataformas e Mezaninos — sempre com foco em desempenho, segurança e as necessidades de cada cliente.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="text-center text-md-start mt-8 lg:mt-2">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('projetos')">
-                <div class="flex align-center">
-                  <span>Saiba mais</span>
-                  <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
-                  </AtomIcon>
-                </div>
-              </AtomButton>
+              <div class="text-center text-md-start mt-8 lg:mt-2">
+                <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('projetos')">
+                  <div class="flex align-center">
+                    <span>Saiba mais</span>
+                    <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
+                    </AtomIcon>
+                  </div>
+                </AtomButton>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="lg:flex align-start mt-10 ">
-          <div class="lg:w-[73%]">
-            <div class="text-xl text-red mb-2">Manutenção de</div>
-            <div class="text-3xl">Equipamentos Industriais</div>
-            <div class="flex">
-              <div class="lg:pr-8">
-                <div class="my-2 flex flex-column">
-                  <div class="text-md mb-4">
-                    Seja na produção em larga escala ou em setores de alta especialização, a confiabilidade e a eficiência dos equipamentos industriais são fundamentais para o sucesso das operações. Nesse contexto, a TWA Equipamentos e Serviços Industriais se destaca na linha de frente, oferecendo serviços especializados de manutenção industrial, com uma equipe técnica altamente qualificada.
-                  </div>
-                  <div class="text-md">
-                    Com foco em excelência, agilidade e pontualidade, realizamos a manutenção de diversos equipamentos industriais, garantindo desempenho contínuo, segurança operacional e redução de paradas não planejadas.
+        </AtomAnimationFocus>
+        <AtomAnimationFocus>
+          <div class="lg:flex align-start mt-10 ">
+            <div class="lg:w-[73%]">
+              <div class="text-xl text-red mb-2">Manutenção de</div>
+              <div class="text-3xl">Equipamentos Industriais</div>
+              <div class="flex">
+                <div class="lg:pr-8">
+                  <div class="my-2 flex flex-column">
+                    <div class="text-md mb-4">
+                      Seja na produção em larga escala ou em setores de alta especialização, a confiabilidade e a eficiência dos equipamentos industriais são fundamentais para o sucesso das operações. Nesse contexto, a TWA Equipamentos e Serviços Industriais se destaca na linha de frente, oferecendo serviços especializados de manutenção industrial, com uma equipe técnica altamente qualificada.
+                    </div>
+                    <div class="text-md">
+                      Com foco em excelência, agilidade e pontualidade, realizamos a manutenção de diversos equipamentos industriais, garantindo desempenho contínuo, segurança operacional e redução de paradas não planejadas.
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="lg:w-[27%] my-8 my-lg-0 flex lg:hidden"> 
+                <AtomImage :imageUrl="maintenance" width="100%" height="auto" class="rounded-lg" />
+              </div>
+              <div class="text-center text-md-start mt-8 mb-10 lg:mb-0">
+                <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('manutencao')">
+                  <div class="flex align-center">
+                    <span>Saiba mais</span>
+                    <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
+                    </AtomIcon>
+                  </div>
+                </AtomButton>
+              </div>
             </div>
-            <div class="lg:w-[27%] my-8 my-lg-0 flex lg:hidden"> 
+            <div class="lg:w-[27%] my-8 my-lg-0 lg:flex hidden"> 
               <AtomImage :imageUrl="maintenance" width="100%" height="auto" class="rounded-lg" />
             </div>
-            <div class="text-center text-md-start mt-8 mb-10 lg:mb-0">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('manutencao')">
-                <div class="flex align-center">
-                  <span>Saiba mais</span>
-                  <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
-                  </AtomIcon>
-                </div>
-              </AtomButton>
-            </div>
           </div>
-          <div class="lg:w-[27%] my-8 my-lg-0 lg:flex hidden"> 
-            <AtomImage :imageUrl="maintenance" width="100%" height="auto" class="rounded-lg" />
-          </div>
-        </div>
-        <div class="lg:flex align-start mt-10">
-          <div class="lg:w-[35%] hidden lg:flex lg:mr-10"> 
-            <v-row>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao1}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao2}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao3}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao4}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao5}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao6}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-            </v-row>
-          </div>
-          <div class="lg:w-[65%]">
-            <div class="text-xl text-red mb-2">Locação de</div>
-            <div class="text-3xl">Guindastes e Guindauto</div>
-            <div class="flex">
-              <div class="lg:pr-8">
-                <div class="my-2 flex flex-column">
-                  <div class="text-md mb-4">
-                    A TWA Equipamentos e Serviços Industriais também atua no segmento de locação de guindastes e guindautos, oferecendo soluções sob medida para as necessidades da sua obra.
-                  </div>
-                  <div class="text-md">
-                    Contamos com equipamentos modernos, submetidos a manutenções periódicas, garantindo operações seguras e confiáveis. Nossa equipe é altamente treinada e realiza todas as atividades de movimentação de cargas e içamentos com eficiência e total conformidade com as normas regulamentadoras.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="lg:w-[35%] flex lg:hidden lg:mr-10 mt-8"> 
+        </AtomAnimationFocus>
+        <AtomAnimationFocus>
+          <div class="lg:flex align-start mt-10">
+            <div class="lg:w-[35%] hidden lg:flex lg:mr-10"> 
               <v-row>
                 <v-col cols="6" md="4">
                   <div class="rounded-lg" :style="`background: url(${locacao1}); width: 100%; height:150px; background-size:cover`"></div>
@@ -264,17 +243,55 @@
                 </v-col>
               </v-row>
             </div>
-            <div class="text-center text-md-start mt-8">
-              <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('locacao-guindastes')">
-                <div class="flex align-center">
-                  <span>Saiba mais</span>
-                  <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
-                  </AtomIcon>
+            <div class="lg:w-[65%]">
+              <div class="text-xl text-red mb-2">Locação de</div>
+              <div class="text-3xl">Guindastes e Guindauto</div>
+              <div class="flex">
+                <div class="lg:pr-8">
+                  <div class="my-2 flex flex-column">
+                    <div class="text-md mb-4">
+                      A TWA Equipamentos e Serviços Industriais também atua no segmento de locação de guindastes e guindautos, oferecendo soluções sob medida para as necessidades da sua obra.
+                    </div>
+                    <div class="text-md">
+                      Contamos com equipamentos modernos, submetidos a manutenções periódicas, garantindo operações seguras e confiáveis. Nossa equipe é altamente treinada e realiza todas as atividades de movimentação de cargas e içamentos com eficiência e total conformidade com as normas regulamentadoras.
+                    </div>
+                  </div>
                 </div>
-              </AtomButton>
+              </div>
+              <div class="lg:w-[35%] flex lg:hidden lg:mr-10 mt-8"> 
+                <v-row>
+                  <v-col cols="6" md="4">
+                    <div class="rounded-lg" :style="`background: url(${locacao1}); width: 100%; height:150px; background-size:cover`"></div>
+                  </v-col>
+                  <v-col cols="6" md="4">
+                    <div class="rounded-lg" :style="`background: url(${locacao2}); width: 100%; height:150px; background-size:cover`"></div>
+                  </v-col>
+                  <v-col cols="6" md="4">
+                    <div class="rounded-lg" :style="`background: url(${locacao3}); width: 100%; height:150px; background-size:cover`"></div>
+                  </v-col>
+                  <v-col cols="6" md="4">
+                    <div class="rounded-lg" :style="`background: url(${locacao4}); width: 100%; height:150px; background-size:cover`"></div>
+                  </v-col>
+                  <v-col cols="6" md="4">
+                    <div class="rounded-lg" :style="`background: url(${locacao5}); width: 100%; height:150px; background-size:cover`"></div>
+                  </v-col>
+                  <v-col cols="6" md="4">
+                    <div class="rounded-lg" :style="`background: url(${locacao6}); width: 100%; height:150px; background-size:cover`"></div>
+                  </v-col>
+                </v-row>
+              </div>
+              <div class="text-center text-md-start mt-8">
+                <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('locacao-guindastes')">
+                  <div class="flex align-center">
+                    <span>Saiba mais</span>
+                    <AtomIcon name="ArrowRight" class="ml-2 !w-[30px] !h-[30px] text-white">
+                    </AtomIcon>
+                  </div>
+                </AtomButton>
+              </div>
             </div>
           </div>
-        </div>
+        </AtomAnimationFocus>
       </div>
     </div>
   </div>
@@ -513,9 +530,10 @@ import locacao6 from '@/assets/images/locacao6.jpg';
 
 
 .flag {
+  margin-top: -96px;
   background-image: url('assets/images/twa_background.png');
   background-position: 0px -85px;
-  height: 700px;
+  height: 820px;
   width: auto;
   background-repeat: no-repeat;
 }

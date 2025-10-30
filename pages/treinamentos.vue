@@ -4,46 +4,116 @@
       <div class="text-lg mb-1">Treinamentos</div>
       <div class="text-xs mb-4">Home - Treinamentos</div>
       <hr class="mb-4"/>
+      <!-- <AtomAnimationFocus>
+        <MoleculeSolutionsTraining :items="trainingList" class="p-4" />
+      </AtomAnimationFocus> -->
+      <div class="lg:w-[100%]">
+        <div class="text-xl text-red mb-2">Segurança em primeiro lugar: </div>
+        <div class="text-2xl">um compromisso da TWA Equipamentos</div>
+        <div class="flex">
+          <div class="lg:pr-8">
+            <div class="my-2 flex flex-column">
+              <div class="text-md text-grey500">
+                Na TWA Equipamentos, segurança não é apenas uma obrigação, é um valor que guia cada uma de nossas ações. Sabemos que um ambiente de trabalho seguro é essencial para o bem-estar das pessoas e para a excelência das nossas operações.
+                <br />
+                <br />
+                Por isso, seguimos rigorosamente todas as Normas Regulamentadoras (NR’s) e mantemos um programa contínuo de capacitação, garantindo que todos os colaboradores recebam os treinamentos obrigatórios e complementares necessários para exercer suas atividades com total segurança e confiança.
+                <br />
+                <br />
+                Cada treinamento é planejado com cuidado, abordando desde procedimentos técnicos até comportamentos preventivos, sempre com foco na proteção à vida, na prevenção de acidentes e na responsabilidade compartilhada.
+                <br />
+                <br />
+                Com essa postura, reforçamos nosso compromisso com um ambiente de trabalho seguro, consciente e em conformidade com a legislação vigente, mostrando que, na TWA, cuidar das pessoas é prioridade.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:flex my-10" id="duto-gases">
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr1" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 01</div>
+          <div class="text-2xl">Disposições Gerais e Gerenciamento de Riscos Ocupacionais</div>
+          <div class="lg:w-[25%] mt-4 mt-lg-0 flex lg:hidden"> 
+            <AtomImage :imageUrl="nr1" width="100%" height="200px" class="rounded-lg" />
+          </div>
+          <div class="flex mt-4">
+            <!-- <div class="pa-8">Video ou Foto</div> -->
+            <div class="lg:pr-8">
+              <div class="my-4 flex">
+                <div class="text-md text-grey500">  
+                  Capacita os colaboradores para identificar e controlar riscos inerentes às atividades industriais.
+                  Essencial para implementação do PGR e promoção de um ambiente seguro.
+                  Base normativa para todos os demais treinamentos de segurança.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="lg:flex">
-        <div class="lg:w-[60%]">
-          <div class="text-xl text-red mb-2">Treinamento e Capacitação </div>
-          <div class="text-3xl">NR-06</div>
-          <div class="lg:w-[40%] flex lg:hidden mt-4 mt-lg-0"> 
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr5" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 05</div>
+          <div class="text-2xl">Comissão Interna de Prevenção de Acidentes (CIPA)</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-0"> 
+            <AtomImage :imageUrl="nr5" width="100%" height="auto" class="rounded-lg" />
+          </div>
+          <div class="flex mt-4">
+            <div class="lg:pr-8">
+              <div class="my-4 flex">
+                <div class="text-md text-grey500">
+                  Forma membros da CIPA para atuar na prevenção de acidentes e doenças ocupacionais.
+                  Garante a participação dos trabalhadores nas decisões de segurança.
+                  Importante para empresas que atuam em canteiros de obras e ambientes industriais.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:flex my-10">
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr6" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 06</div>
+          <div class="text-2xl">Utilização, Higienização e Conservação de EPIs</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-0"> 
             <AtomImage :imageUrl="nr6" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
             <!-- <div class="pa-8">Video ou Foto</div> -->
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
-                Para fins de aplicação desta Norma Regulamentadora, considera-se Equipamento de Proteção Individual (EPI) todo dispositivo ou produto de uso individual, utilizado pelo trabalhador e destinado à proteção contra riscos que possam ameaçar sua segurança e saúde durante a fabricação ou manutenção de equipamentos.
-                <br />
-                <br />
-                Na TWA Equipamentos e Serviços Industriais, os treinamentos internos são aplicados a todos os profissionais, sempre com o objetivo de preservar a integridade e a saúde do maior patrimônio da empresa: seus colaboradores. Esse compromisso resulta na confiança que os clientes podem depositar na TWA, uma vez que nossa equipe atua com segurança, excelência e pontualidade em cada serviço prestado.
+                <div class="text-md text-grey500">
+                  Instrui sobre o uso correto, conservação e higienização dos EPIs obrigatórios.
+                  Fundamental para a proteção individual nas atividades de montagem industrial.
+                  Contribui diretamente para a redução de acidentes e exposição a riscos.
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="lg:w-[40%] hidden lg:flex"> 
-          <AtomImage :imageUrl="nr6" width="100%" height="auto" class="rounded-lg" />
-        </div>
       </div>
-      <div class="lg:flex my-10" id="duto-gases">
-        <div class="lg:w-[40%] hidden lg:flex"> 
+      <!-- <div class="lg:flex my-10" id="duto-gases">
+        <div class="lg:w-[25%] hidden lg:flex"> 
           <AtomImage :imageUrl="nr10" width="100%" height="auto" class="rounded-lg" />
         </div>
-        <div class="lg:w-[60%] lg:ml-10">
+        <div class="lg:w-[75%] lg:ml-10">
           <div class="text-xl text-red mb-2">Treinamento e Capacitação</div>
-          <div class="text-3xl">NR-10</div>
-          <div class="lg:w-[40%] mt-4 mt-lg-0 flex lg:hidden"> 
+          <div class="text-2xl">NR-10</div>
+          <div class="lg:w-[25%] mt-4 mt-lg-0 flex lg:hidden"> 
             <AtomImage :imageUrl="nr10" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
-            <!-- <div class="pa-8">Video ou Foto</div> -->
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
+                <div class="text-md text-grey500">
                   A NR-10 estabelece os requisitos e condições mínimas para a implementação de medidas de controle e de sistemas preventivos, garantindo a segurança e a saúde dos trabalhadores que, direta ou indiretamente, interajam com instalações elétricas e serviços envolvendo eletricidade.
                   <br />
                   <br />
@@ -53,51 +123,46 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="lg:flex">
-        <div class="lg:w-[60%]">
-          <div class="text-xl text-red mb-2">Treinamento e Capacitação</div>
-          <div class="text-3xl">NR-11</div>
-          <div class="lg:w-[40%] flex lg:hidden mt-4 mt-lg-4"> 
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr11" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 11</div>
+          <div class="text-2xl">Capacitação para Operação Segura de Empilhadeiras</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-4"> 
             <AtomImage :imageUrl="nr11" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
             <!-- <div class="pa-8">Video ou Foto</div> -->
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
-                  A NR-11 trata das normas de segurança referentes ao transporte, movimentação, armazenagem e manuseio de materiais. Seu objetivo é garantir que todas essas atividades sejam realizadas de forma segura, prevenindo acidentes e preservando a integridade física dos trabalhadores e das operações.
-                  <br />
-                  <br />
-                  Na TWA Equipamentos e Serviços Industriais, aplicamos de forma rigorosa todas as exigências da NR-11. Nossa equipe é treinada para operar guindastes, guindautos, empilhadeiras e demais equipamentos de movimentação de cargas com total responsabilidade e precisão. Além disso, investimos continuamente em manutenção preventiva e em tecnologias modernas, o que assegura processos ágeis, eficientes e, acima de tudo, seguros.
-                  <br />
-                  <br />
-                  Esse compromisso reforça a confiança que nossos clientes depositam na TWA: oferecer soluções industriais que unem segurança, qualidade e pontualidade, preservando o bem-estar de nossos colaboradores e garantindo a excelência em cada serviço prestado.
+                <div class="text-md text-grey500">
+                  Capacita operadores para manobras seguras com empilhadeiras em ambientes industriais.
+                  Inclui práticas de inspeção, transporte de cargas e prevenção de acidentes.
+                  Garante eficiência logística sem comprometer a segurança.
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="lg:w-[40%] hidden lg:flex"> 
-          <AtomImage :imageUrl="nr11" width="100%" height="auto" class="rounded-lg" />
-        </div>
       </div>
-      
+<!--       
       <div class="lg:flex my-10">
-        <div class="lg:w-[40%] hidden lg:flex align-start"> 
+        <div class="lg:w-[25%] hidden lg:flex align-start"> 
           <AtomImage :imageUrl="nr12" width="100%" height="auto" class="rounded-lg" />
         </div>
-        <div class="lg:w-[60%] lg:ml-10">
+        <div class="lg:w-[75%] lg:ml-10">
           <div class="text-xl text-red mb-2">Treinamento e Capacitação</div>
-          <div class="text-3xl">NR-12</div>
-          <div class="lg:w-[40%] flex lg:hidden mt-4 mt-lg-4"> 
+          <div class="text-2xl">NR-12</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-4"> 
             <AtomImage :imageUrl="nr12" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
-            <!-- <div class="pa-8">Video ou Foto</div> -->
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
+                <div class="text-md text-grey500">
                   A NR-12, instituída pela Portaria nº 3.214/1978 do Ministério do Trabalho e Emprego, estabelece as diretrizes técnicas para garantir a segurança no trabalho em máquinas e equipamentos. Seu propósito é assegurar que todas as etapas, desde a instalação, operação e manutenção até a desativação, sejam realizadas de forma a proteger a integridade física e a saúde dos trabalhadores.
                   <br />
                   <br />
@@ -113,63 +178,95 @@
             </div>
           </div>
         </div>
+      </div> -->
+      <div class="lg:flex my-10 align-start">
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr17" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 17</div>
+          <div class="text-2xl">Ergonomia</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-4"> 
+            <AtomImage :imageUrl="nr17" width="100%" height="auto" class="rounded-lg" />
+          </div>
+          <div class="flex mt-4">
+            <!-- <div class="pa-8">Video ou Foto</div> -->
+            <div class="lg:pr-8">
+              <div class="my-4 flex">
+                <div class="text-md text-grey500">
+                  Aplica conceitos ergonômicos às atividades de montagem e movimentação manual.
+                  Previne lesões musculoesqueléticas e melhora o desempenho operacional.
+                  Contribui para a saúde ocupacional e produtividade da equipe.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="lg:flex align-start">
-        <div class="lg:w-[60%]">
-          <div class="text-xl text-red mb-2">Treinamento e Capacitação</div>
-          <div class="text-3xl">NR-18</div>
-          <div class="lg:w-[40%] flex lg:hidden mt-4 mt-lg-4"> 
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr18" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 18</div>
+          <div class="text-2xl">Montagem e Desmontagem de Andaimes</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-4"> 
             <AtomImage :imageUrl="nr18" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
             <!-- <div class="pa-8">Video ou Foto</div> -->
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
-                  A NR-18, aprovada pela Portaria nº 3.214/1978 do Ministério do Trabalho e Emprego, estabelece diretrizes de segurança e saúde no trabalho na construção civil. Seu objetivo é garantir condições adequadas para prevenir acidentes e preservar a integridade dos trabalhadores envolvidos em atividades de obras, montagens, reparos e demolições.
-                  <br />
-                  <br />
-                  Entre os pontos centrais da norma está a obrigatoriedade de que todos os profissionais recebam treinamento antes de iniciar suas atividades. É fundamental que cada trabalhador conheça os riscos específicos do ambiente de obra, bem como as medidas preventivas necessárias para executar suas funções com segurança.
-                  <br />
-                  <br />
-                  Na TWA Equipamentos e Serviços Industriais, seguimos à risca as determinações da NR-18. Nossos colaboradores são capacitados para atuar em diferentes contextos da construção civil, sempre com foco em segurança, qualidade e eficiência. Além disso, investimos constantemente em equipamentos modernos e em programas de prevenção, garantindo ambientes de trabalho mais organizados, produtivos e protegidos.
-                  <br />
-                  <br />
-                  Esse comprometimento reforça a confiança que os clientes depositam na TWA: uma empresa que valoriza a vida, respeita as normas e entrega serviços com excelência, pontualidade e responsabilidade.
+                <div class="text-md text-grey500">
+                  Capacita profissionais para montagem e desmontagem segura de andaimes. Inclui análise de risco, ancoragem e verificação de estabilidade. Importante para garantir segurança em trabalhos em altura.
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="lg:w-[40%] hidden lg:flex"> 
-          <AtomImage :imageUrl="nr18" width="100%" height="auto" class="rounded-lg" />
+      </div>
+      <div class="lg:flex align-start my-10">
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr20" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 20</div>
+          <div class="text-2xl">Trabalhos com Inflamáveis e Combustíveis</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-4"> 
+            <AtomImage :imageUrl="nr20" width="100%" height="auto" class="rounded-lg" />
+          </div>
+          <div class="flex mt-4">
+            <!-- <div class="pa-8">Video ou Foto</div> -->
+            <div class="lg:pr-8">
+              <div class="my-4 flex">
+                <div class="text-md text-grey500">
+                  Capacita trabalhadores para atuar com segurança em áreas com produtos inflamáveis.
+                  Foca na prevenção de vazamentos, incêndios e no uso de sistemas de emergência.
+                  Necessário para operações em tanques, linhas de gás ou áreas classificadas.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="lg:flex align-start my-10">
-        <div class="lg:w-[40%] hidden lg:flex"> 
+        <div class="lg:w-[25%] hidden lg:flex"> 
           <AtomImage :imageUrl="nr33" width="100%" height="auto" class="rounded-lg" />
         </div>
-        <div class="lg:w-[60%] lg:ml-10">
-          <div class="text-xl text-red mb-2">Treinamento e Capacitação</div>
-          <div class="text-3xl">NR-33</div>
-          <div class="lg:w-[40%] flex lg:hidden mt-4 mt-lg-4"> 
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 11</div>
+          <div class="text-2xl">NR-33 -  Trabalho Seguro em Espaços Confinados</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-4"> 
             <AtomImage :imageUrl="nr33" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
             <!-- <div class="pa-8">Video ou Foto</div> -->
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
-                  A NR-33, instituída pela Portaria nº 3.214/1978 do Ministério do Trabalho e Emprego, estabelece os requisitos mínimos para a segurança e a saúde nos trabalhos realizados em espaços confinados. Esses ambientes, como tanques, silos, galerias e tubulações, apresentam riscos adicionais devido às condições de ventilação limitada, acesso restrito e possibilidade de acúmulo de gases ou falta de oxigênio.
-                  <br />
-                  <br />
-                  A norma determina que nenhum trabalhador pode acessar um espaço confinado sem treinamento específico, conhecimento dos riscos existentes e a utilização dos Equipamentos de Proteção Individual e Coletiva adequados. Além disso, é exigida a presença de uma equipe preparada para monitorar e resgatar em situações de emergência. Assim como um mergulhador precisa conhecer cada detalhe do ambiente antes de submergir, o profissional que atua em espaço confinado deve estar plenamente capacitado e consciente de todos os procedimentos de segurança.
-                  <br />
-                  <br />
-                  Na TWA Equipamentos e Serviços Industriais, levamos a NR-33 muito a sério. Nossa equipe é treinada e constantemente atualizada para trabalhar em espaços confinados com total segurança, eficiência e responsabilidade. Investimos em tecnologia, em protocolos de prevenção e em equipamentos modernos, assegurando que cada operação seja conduzida de forma segura tanto para nossos colaboradores quanto para nossos clientes.
-                  <br />
-                  <br />
-                  Esse comprometimento traduz-se em confiança: quem escolhe a TWA tem a certeza de contar com uma empresa que valoriza a vida, respeita as normas e entrega resultados com excelência e pontualidade.
+                <div class="text-md text-grey500">
+                  Prepara trabalhadores para entrar, atuar e resgatar com segurança em espaços confinados.
+                  Inclui controle de atmosfera, uso de EPI e procedimentos de resgate.
+                  Vital para atividades em tanques, silos, galerias e tubulações.
                 </div>
               </div>
             </div>
@@ -177,60 +274,46 @@
         </div>
       </div>
       <div class="lg:flex align-start">
-        <div class="lg:w-[60%]">
-          <div class="text-xl text-red mb-2">Treinamento e Capacitação</div>
-          <div class="text-3xl">NR-34</div>
-          <div class="lg:w-[40%] flex lg:hidden mt-4 mt-lg-0"> 
+        <div class="lg:w-[25%] hidden lg:flex"> 
+          <AtomImage :imageUrl="nr34" width="100%" height="auto" class="rounded-lg" />
+        </div>
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 34</div>
+          <div class="text-2xl">Trabalho a Quente</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-0"> 
             <AtomImage :imageUrl="nr34" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
-                  A NR-34, criada pela Portaria nº 3.214/1978 do Ministério do Trabalho e Emprego, estabelece os requisitos mínimos de segurança e saúde no trabalho aplicáveis às atividades da indústria naval, especialmente nos serviços de construção, reparo e desmonte de embarcações. Por envolver operações complexas, como soldagem, pintura, jateamento, movimentação de cargas e trabalhos em altura ou espaços confinados, a norma tem como objetivo reduzir riscos e preservar a integridade física dos trabalhadores.
-                  <br />
-                  <br />
-                  Um dos pontos fundamentais da NR-34 é a exigência de que todos os profissionais recebam treinamento específico antes de iniciar suas atividades. Cada colaborador deve conhecer os riscos relacionados ao ambiente naval e estar preparado para aplicar as medidas preventivas necessárias, utilizando corretamente os Equipamentos de Proteção Individual e Coletiva.
-                  <br />
-                  <br />
-                  Na TWA Equipamentos e Serviços Industriais, seguimos rigorosamente as diretrizes da NR-34. Nossa equipe é altamente qualificada e constantemente capacitada para atuar em serviços navais com segurança, qualidade e eficiência. Além disso, investimos em tecnologias modernas, manutenção preventiva e protocolos de segurança que asseguram operações confiáveis e alinhadas às melhores práticas do setor.
-                  <br />
-                  <br />
-                  Esse compromisso garante aos nossos clientes tranquilidade e confiança: ao escolher a TWA, contam com uma empresa que respeita as normas, valoriza a vida de seus colaboradores e entrega soluções industriais com excelência, pontualidade e responsabilidade.
+                <div class="text-md text-grey500">
+                  Instrui trabalhadores sobre segurança em atividades com solda, corte e esmerilhamento.
+                  Enfatiza controle de riscos de incêndio e uso de EPIs específicos.
+                  Essencial em áreas com presença de inflamáveis ou risco de explosão.
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="lg:w-[40%] hidden lg:flex"> 
-          <AtomImage :imageUrl="nr34" width="100%" height="auto" class="rounded-lg" />
-        </div>
       </div>
       <div class="lg:flex align-start my-10">
-        <div class="lg:w-[40%] hidden lg:flex"> 
+        <div class="lg:w-[25%] hidden lg:flex"> 
           <AtomImage :imageUrl="nr35" width="100%" height="auto" class="rounded-lg" />
         </div>
-        <div class="lg:w-[60%] lg:ml-10">
-          <div class="text-xl text-red mb-2">Treinamento e Capacitação</div>
-          <div class="text-3xl">NR-35</div>
-          <div class="lg:w-[40%] flex lg:hidden mt-4 mt-lg-4"> 
+        <div class="lg:w-[75%] lg:ml-10">
+          <div class="text-3xl text-red mb-2">NR 35</div>
+          <div class="text-2xl">Trabalho em Altura</div>
+          <div class="lg:w-[25%] flex lg:hidden mt-4 mt-lg-4"> 
             <AtomImage :imageUrl="nr35" width="100%" height="auto" class="rounded-lg" />
           </div>
           <div class="flex mt-4">
             <!-- <div class="pa-8">Video ou Foto</div> -->
             <div class="lg:pr-8">
               <div class="my-4 flex">
-                <div class="text-sm text-grey500">
-                  A NR-35, aprovada pela Portaria nº 3.214/1978 do Ministério do Trabalho e Emprego, estabelece os requisitos mínimos de segurança e saúde para o trabalho em altura, considerado toda atividade executada acima de dois metros do nível inferior, onde haja risco de queda. Seu objetivo é proteger a vida e a integridade física dos trabalhadores envolvidos nessas operações.
-                  <br />
-                  <br />
-                  A norma determina que nenhum profissional pode realizar trabalhos em altura sem treinamento específico e sem conhecer os riscos inerentes a essa atividade. Além disso, é obrigatória a utilização de Equipamentos de Proteção Individual e Coletiva adequados, bem como a adoção de procedimentos de planejamento, análise de risco e medidas de emergência, garantindo que cada tarefa seja executada com máxima segurança.
-                  <br />
-                  <br />
-                  Na TWA Equipamentos e Serviços Industriais, seguimos rigorosamente as exigências da NR-35. Nossos colaboradores são capacitados e constantemente atualizados para atuar em trabalhos em altura com eficiência, responsabilidade e segurança. Também investimos em equipamentos modernos e em programas de prevenção, assegurando a confiabilidade das operações e a proteção dos trabalhadores.
-                  <br />
-                  <br />
-                  Esse compromisso reflete diretamente na confiança dos nossos clientes: ao escolher a TWA, contam com uma empresa que valoriza a vida, cumpre as normas e entrega serviços com excelência, segurança e pontualidade.
+                <div class="text-md text-grey500">
+                  Capacita trabalhadores para executar atividades em altura com segurança.
+                  Aborda o uso de cintos de segurança, ancoragens e prevenção de quedas.
+                  Imprescindível em estruturas elevadas, escadas e andaimes.
                 </div>
               </div>
             </div>
@@ -239,13 +322,13 @@
       </div>
       <div class="flex flex-col w-full max-w-[800px] mt-10">
           <span class="text-xl text-red">Fale com a</span>
-          <span class="text-2xl mb-4">TWA Equipamentos agora mesmo!</span>
-          <span class="text-sm text-grey500">
-            Entre em contato com o time de vendas da TWA Equipamentos agora mesmo e tire todas as suas dúvidas, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
+          <span class="text-3xl mb-4">TWA Equipamentos agora mesmo!</span>
+          <span class="text-md text-grey500">
+            Entre em contato com a Equipe do Comercial da TWA Equipamentos agora mesmo e tire todas as suas dúvidas, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
           </span>
         </div>
         <div class="mt-4 w-[255px]">
-          <NuxtLink :to="`https://wa.me/5516981735919?text=${encodeURIComponent('Olá! Gostaria de falar sobre os serviços de construção.')}`" class="highlight-menu text-uppercase text-sm bg-green rounded-md p-2 flex align-center" target="_blank">
+          <NuxtLink :to="`https://wa.me/5516981735919?text=${encodeURIComponent('Olá! Gostaria de falar sobre os serviços de construção.')}`" class="highlight-menu text-uppercase text-md bg-green rounded-md p-2 flex align-center" target="_blank">
             <AtomIcon name="WhatsappFull" filled class="!w-6 !h-6 mr-2"></AtomIcon>
             <span>Falar com a equipe da TWA</span> 
           </NuxtLink>
@@ -264,11 +347,15 @@ import cozedores from '@/assets/images/cozedores.png';
 import cristalizador from '@/assets/images/cristalizador.png';
 import lavadorGases from '@/assets/images/manutencao-lavador-de-gases.png';
 import sementeira from '@/assets/images/sementeira.png';
+import nr1 from '@/assets/images/nr1.jpg';
 import nr6 from '@/assets/images/nr6.png';
+import nr5 from '@/assets/images/nr5.jpg';
 import nr10 from '@/assets/images/nr10.jpg';
 import nr11 from '@/assets/images/nr11.jpg';
 import nr12 from '@/assets/images/nr12.jpg';
+import nr17 from '@/assets/images/nr17.jpg';
 import nr18 from '@/assets/images/nr18.jpg';
+import nr20 from '@/assets/images/nr20.jpg';
 import nr33 from '@/assets/images/nr33.jpg';
 import nr34 from '@/assets/images/nr34.jpg';
 import nr35 from '@/assets/images/nr35.jpg';
@@ -280,6 +367,63 @@ import nr35 from '@/assets/images/nr35.jpg';
 
   const { t } = useI18n()
 	const title = `${t('pageTitle', { page: t('trainings.pageTitle') })}`
+
+    const trainingList = [
+    {
+      icon: "Health",
+      title: "NR-01 - Disposições Gerais e Gerenciamento de Riscos Ocupacionais",
+      description: "Capacita os colaboradores para identificar e controlar riscos inerentes às atividades industriais. Essencial para implementação do PGR e promoção de um ambiente seguro. Base normativa para todos os demais treinamentos de segurança.",
+      path: "",
+    },
+    {
+      icon: "Health",
+      title: "NR-06",
+      description: "Garante o uso correto de EPIs para proteger o trabalhador contra riscos.",
+      path: "",
+    },
+    {
+      icon: "Bolt",
+      title: "NR-10",
+      description: "Define medidas de proteção em instalações e serviços elétricos.",
+      path: "",
+    },
+    {
+      icon: "Shipping",
+      title: "NR-11",
+      description: "Regula o manuseio e transporte seguro de cargas e equipamentos.",
+      path: "",
+    },
+    {
+      icon: "Handyman",
+      title: "NR-12",
+      description: "Estabelece regras para uso seguro de máquinas e prevenção de acidentes.",
+      path: "",
+    },
+    {
+      icon: "Engineering",
+      title: "NR-18",
+      description: "Define condições de segurança e saúde em canteiros de obras.",
+      path: "",
+    },
+    {
+      icon: "Sensor",
+      title: "NR-33",
+      description: "Determina medidas de proteção em atividades realizadas em locais confinados.",
+      path: "",
+    },
+    {
+      icon: "Anchor",
+      title: "NR-34",
+      description: "Estabelece regras de segurança em construção e reparo de embarcações.",
+      path: "",
+    },
+    {
+      icon: "Elevation",
+      title: "NR-35",
+      description: "Previne quedas e garante segurança em atividades acima de 2 metros.",
+      path: "",
+    },
+  ]
 
 	useHead({
 		title: title

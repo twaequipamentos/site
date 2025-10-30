@@ -1,5 +1,5 @@
 <template>
-	<IonImage :src="imageUrl" :aspect-ratio="aspectRatio" :lazy-src="lazySrc" :height="height" :width="width" />
+	<IonImage v-bind="$attrs" :src="imageUrl" :aspect-ratio="aspectRatio" :lazy-src="lazySrc" :height="height" :width="width" />
 </template>
 
 <script setup>
