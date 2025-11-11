@@ -320,19 +320,19 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col w-full max-w-[800px] mt-10">
-          <span class="text-xl text-red">Fale com a</span>
-          <span class="text-3xl mb-4">TWA Equipamentos agora mesmo!</span>
-          <span class="text-md text-grey500">
-            Entre em contato com a Equipe do Comercial da TWA Equipamentos agora mesmo e tire todas as suas dúvidas, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
-          </span>
-        </div>
-        <div class="mt-4 w-[255px]">
-          <NuxtLink :to="`https://wa.me/5516981735919?text=${encodeURIComponent('Olá! Gostaria de falar sobre os serviços de construção.')}`" class="highlight-menu text-uppercase text-md bg-green rounded-md p-2 flex align-center" target="_blank">
-            <AtomIcon name="WhatsappFull" filled class="!w-6 !h-6 mr-2"></AtomIcon>
-            <span>Falar com a equipe da TWA</span> 
-          </NuxtLink>
-        </div>
+      <div class="flex flex-col w-full max-w-[600px] mt-10">
+        <span class="text-xl text-red">Fale com a</span>
+        <span class="text-2xl mb-4">TWA Equipamentos agora mesmo!</span>
+        <span class="text-md text-grey500">
+          Entre em contato com a Equipe do Comercial da TWA Equipamentos agora mesmo e tire todas as suas dúvidas, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
+        </span>
+      </div>
+      <div class="mt-4 w-[255px]">
+        <NuxtLink :to="`https://wa.me/5516981735919?text=${encodeURIComponent('Olá! Gostaria de tirar dúvidas sobre locação de Guindastes e Guindautos.')}`" class="highlight-menu text-uppercase text-sm bg-green rounded-md p-2 flex align-center" target="_blank">
+          <AtomIcon name="WhatsappFull" filled class="!w-6 !h-6 mr-2"></AtomIcon>
+          <span>Falar com a equipe da TWA</span> 
+        </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
