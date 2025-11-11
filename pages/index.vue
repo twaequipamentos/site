@@ -47,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="lg:w-[45%]"> 
+            <div class="lg:w-[45%] mt-8"> 
               <AtomImage :imageUrl="twaCompany" width="100%" height="auto" class="rounded-lg" />
             </div>
           </div>
@@ -66,7 +66,7 @@
       </v-col>
       <v-col cols="12" md="3" class="p-4 bg-white flex align-center justify-center h-[200px]">
         <div class="text-center">
-          <AtomCounting targetNumber="300" class="text-black" :plus="true" :duration="3000" />
+          <AtomCounting targetNumber="400" class="text-black" :plus="true" :duration="3000" />
           <div class="text-xl mt-2">colaboradores</div>
         </div>
       </v-col>
@@ -132,8 +132,8 @@
         <AtomAnimationFocus>
           <div class="flex align-start mb-4">
             <div class="w-[100%]">
-              <div class="text-xl text-red mb-2">Qualidade em </div>
-              <div class="text-3xl">Nossos Serviços</div>
+              <!-- <div class="text-xl text-red mb-2">Qualidade em </div> -->
+              <div class="text-3xl text-red mt-4">Nossos Serviços</div>
               <div class="flex">
                 <!-- <div class="pa-8">Video ou Foto</div> -->
                 <div class="lg:pr-8">
@@ -152,10 +152,12 @@
         </AtomAnimationFocus>
         <AtomAnimationFocus>
           <div class="lg:flex align-start">
-            <div class="lg:w-[27%] my-8 my-md-0"> 
-              <AtomImage :imageUrl="manufacturingMountain" width="100%" height="auto" class="rounded-lg" />
+            <div class="lg:w-[40%] my-8 my-md-0"> 
+              <div class="lg:flex align-start w-full">
+                <MoleculeGalleryView :images="imagesMountList" :initialItemsPerLine="3" />
+              </div>
             </div>
-            <div class="lg:w-[73%] lg:ml-10">
+            <div class="lg:w-[60%] lg:ml-10">
               <div class="text-3xl">Fabricação e Montagem de Equipamentos Industriais</div>
               <div class="flex">
                 <div class="lg:pr-8">
@@ -186,7 +188,7 @@
         </AtomAnimationFocus>
         <AtomAnimationFocus>
           <div class="lg:flex align-start mt-10 ">
-            <div class="lg:w-[73%]">
+            <div class="lg:w-[60%]">
               <div class="text-xl text-red mb-2">Manutenção de</div>
               <div class="text-3xl">Equipamentos Industriais</div>
               <div class="flex">
@@ -201,9 +203,11 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-[27%] my-8 my-lg-0 flex lg:hidden"> 
-                <AtomImage :imageUrl="maintenance" width="100%" height="auto" class="rounded-lg" />
+             <div class="lg:w-[40%] my-8 my-lg-0 flex lg:hidden"> 
+              <div class="lg:flex align-start w-full">
+                <MoleculeGalleryView :images="imagesManutList" :initialItemsPerLine="3" />
               </div>
+            </div>
               <div class="text-center text-md-start mt-8 mb-10 lg:mb-0">
                 <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('manutencao')">
                   <div class="flex align-center">
@@ -214,36 +218,19 @@
                 </AtomButton>
               </div>
             </div>
-            <div class="lg:w-[27%] my-8 my-lg-0 lg:flex hidden"> 
-              <AtomImage :imageUrl="maintenance" width="100%" height="auto" class="rounded-lg" />
+            <div class="lg:w-[40%] my-8 my-lg-0 lg:flex hidden"> 
+              <div class="lg:flex align-start w-full">
+                <MoleculeGalleryView :images="imagesManutList" :initialItemsPerLine="3" />
+              </div>
             </div>
           </div>
         </AtomAnimationFocus>
         <AtomAnimationFocus>
           <div class="lg:flex align-start mt-10">
-            <div class="lg:w-[35%] hidden lg:flex lg:mr-10"> 
-              <v-row>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao1}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao2}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao3}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao4}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao5}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao6}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-              </v-row>
+            <div class="lg:w-[40%] hidden lg:flex lg:mr-10"> 
+              <MoleculeGalleryView :images="imagesLocList" :initialItemsPerLine="3" :height="150" />
             </div>
-            <div class="lg:w-[65%]">
+            <div class="lg:w-[60%]">
               <div class="text-xl text-red mb-2">Locação de</div>
               <div class="text-3xl">Guindastes e Guindauto</div>
               <div class="flex">
@@ -258,27 +245,8 @@
                   </div>
                 </div>
               </div>
-              <div class="lg:w-[35%] flex lg:hidden lg:mr-10 mt-8"> 
-                <v-row>
-                  <v-col cols="6" md="4">
-                    <div class="rounded-lg" :style="`background: url(${locacao1}); width: 100%; height:150px; background-size:cover`"></div>
-                  </v-col>
-                  <v-col cols="6" md="4">
-                    <div class="rounded-lg" :style="`background: url(${locacao2}); width: 100%; height:150px; background-size:cover`"></div>
-                  </v-col>
-                  <v-col cols="6" md="4">
-                    <div class="rounded-lg" :style="`background: url(${locacao3}); width: 100%; height:150px; background-size:cover`"></div>
-                  </v-col>
-                  <v-col cols="6" md="4">
-                    <div class="rounded-lg" :style="`background: url(${locacao4}); width: 100%; height:150px; background-size:cover`"></div>
-                  </v-col>
-                  <v-col cols="6" md="4">
-                    <div class="rounded-lg" :style="`background: url(${locacao5}); width: 100%; height:150px; background-size:cover`"></div>
-                  </v-col>
-                  <v-col cols="6" md="4">
-                    <div class="rounded-lg" :style="`background: url(${locacao6}); width: 100%; height:150px; background-size:cover`"></div>
-                  </v-col>
-                </v-row>
+              <div class="lg:w-[40%] flex lg:hidden lg:mr-10 mt-8"> 
+                <MoleculeGalleryView :images="imagesLocList" :initialItemsPerLine="3" :height="150" />
               </div>
               <div class="text-center text-md-start mt-8">
                 <AtomButton size="large" color="red" class="text-white text-body-1" @click="goToPage('locacao-guindastes')">
@@ -303,6 +271,8 @@ import nestle from '@/assets/images/clientes/nestle.jpg';
 import saoMartinho from '@/assets/images/clientes/sao-martinho.jpg';
 import adm from '@/assets/images/clientes/adm.jpg';
 import abengoa from '@/assets/images/clientes/abengoa.jpg';
+import jalles from '@/assets/images/clientes/jalles.jpg';
+import bauducco from '@/assets/images/clientes/bauducco.jpg';
 import delta from '@/assets/images/clientes/delta.jpg';
 import agropeu from '@/assets/images/clientes/agropeu.jpg';
 import klabin from '@/assets/images/clientes/klabin.jpg';
@@ -317,12 +287,22 @@ import treinamento from '@/assets/images/treinamento.jpg';
 import manufacturingPeople from '@/assets/images/manufacturing-people.jpg';
 import maintenance from '@/assets/images/maintenance.jpeg';
 import manufacturingMountain from '@/assets/images/manufacturing-mountain.jpeg';
-import locacao1 from '@/assets/images/locacao1.jpg';
-import locacao2 from '@/assets/images/locacao2.jpg';
-import locacao3 from '@/assets/images/locacao3.jpg';
-import locacao4 from '@/assets/images/locacao4.jpg';
-import locacao5 from '@/assets/images/locacao5.jpg';
-import locacao6 from '@/assets/images/locacao6.jpg';
+import locacao1 from '@/assets/images/locacao1.jpeg';
+import locacao2 from '@/assets/images/locacao2.jpeg';
+import locacao3 from '@/assets/images/locacao3.jpeg';
+import locacao4 from '@/assets/images/locacao4.jpeg';
+import locacao5 from '@/assets/images/locacao5.jpeg';
+import locacao6 from '@/assets/images/locacao6.jpeg';
+import locacao7 from '@/assets/images/locacao7.jpeg';
+import locacao8 from '@/assets/images/locacao8.jpeg';
+import locacao9 from '@/assets/images/locacao9.jpeg';
+
+import montagem1 from '@/assets/images/montagem1.jpeg';
+import montagem2 from '@/assets/images/montagem2.jpeg';
+import montagem3 from '@/assets/images/montagem3.jpeg';
+import manutencaoLavador from '@/assets/images/manutencao-lavador-de-gases.jpg';
+import manutencaoAquecedores from '@/assets/images/manutencao-aquecedores.jpeg';
+import manutencaoEvaporadores from '@/assets/images/manutencao-evaporadores.jpeg';
 
 
   definePageMeta({
@@ -340,6 +320,30 @@ import locacao6 from '@/assets/images/locacao6.jpg';
   const banners = [
     // {id: 1, url: qualidadeConstrucao},
     // {id: 2, url: locacao}
+  ]
+
+  const imagesMountList = [
+    montagem1,
+    montagem2,
+    montagem3,
+  ]
+
+  const imagesManutList = [
+    manutencaoLavador,
+    manutencaoAquecedores,
+    manutencaoEvaporadores,
+  ]
+
+  const imagesLocList = [
+    locacao1,
+    locacao2,
+    locacao3,
+    locacao4,
+    locacao5,
+    locacao6,
+    locacao7,
+    locacao8,
+    locacao9,
   ]
 
   const trainingList = [
@@ -399,6 +403,8 @@ import locacao6 from '@/assets/images/locacao6.jpg';
     {id: 2, url: saoMartinho},
     {id: 2, url: adm},
     {id: 2, url: abengoa},
+    {id: 2, url: bauducco},
+    {id: 2, url: jalles},
     {id: 2, url: delta},
     {id: 2, url: agropeu},
     {id: 2, url: klabin},

@@ -6,51 +6,13 @@
       <hr class="mb-4"/>
       <div class="lg:flex align-start mt-10">
           <div class="lg:w-[40%] lg:mr-10 hidden lg:flex"> 
-            <v-row>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao1}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao2}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao3}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao4}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao5}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-              <v-col cols="6" md="4">
-                <div class="rounded-lg" :style="`background: url(${locacao6}); width: 100%; height:150px; background-size:cover`"></div>
-              </v-col>
-            </v-row>
+            <MoleculeGalleryView :images="imagesLocList" :initialItemsPerLine="3" :height="150" />
           </div>
           <div class="lg:w-[60%]">
             <div class="text-xl text-red mb-2">Locação de</div>
             <div class="text-3xl">Guindastes e Guindauto</div>
             <div class="lg:w-[40%] lg:mr-10 flex lg:hidden my-4 my-lg-0"> 
-              <v-row>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao1}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao2}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao3}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao4}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao5}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-                <v-col cols="6" md="4">
-                  <div class="rounded-lg" :style="`background: url(${locacao6}); width: 100%; height:150px; background-size:cover`"></div>
-                </v-col>
-              </v-row>
+              <MoleculeGalleryView :images="imagesLocList" :initialItemsPerLine="3" :height="150" />
             </div>
             <div class="flex">
               <div class="lg:pr-8">
@@ -90,12 +52,15 @@
 </template>
 
 <script setup>
-import locacao1 from '@/assets/images/locacao1.jpg';
-import locacao2 from '@/assets/images/locacao2.jpg';
-import locacao3 from '@/assets/images/locacao3.jpg';
-import locacao4 from '@/assets/images/locacao4.jpg';
-import locacao5 from '@/assets/images/locacao5.jpg';
-import locacao6 from '@/assets/images/locacao6.jpg';
+import locacao1 from '@/assets/images/locacao1.jpeg';
+import locacao2 from '@/assets/images/locacao2.jpeg';
+import locacao3 from '@/assets/images/locacao3.jpeg';
+import locacao4 from '@/assets/images/locacao4.jpeg';
+import locacao5 from '@/assets/images/locacao5.jpeg';
+import locacao6 from '@/assets/images/locacao6.jpeg';
+import locacao7 from '@/assets/images/locacao7.jpeg';
+import locacao8 from '@/assets/images/locacao8.jpeg';
+import locacao9 from '@/assets/images/locacao9.jpeg';
 
   definePageMeta({
 		layout: 'home',
@@ -104,6 +69,19 @@ import locacao6 from '@/assets/images/locacao6.jpg';
 
   const { t } = useI18n()
 	const title = `${t('pageTitle', { page: t('craneRental.pageTitle') })}`
+
+  
+  const imagesLocList = [
+    locacao1,
+    locacao2,
+    locacao3,
+    locacao4,
+    locacao5,
+    locacao6,
+    locacao7,
+    locacao8,
+    locacao9,
+  ]
 
 	useHead({
 		title: title

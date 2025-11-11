@@ -10,7 +10,7 @@
       <AtomImage
         :image-url="img"
         cover
-        height="350"
+        :height="height"
         width="100%"
       />
     </div>
@@ -38,7 +38,11 @@ const props = defineProps({
   initialItemsPerLine: {
     type: Number,
     default: 4
-  }
+  },
+  height: {
+    type: Number,
+    default: 350
+  },
 })
 
 const dialog = ref(false)

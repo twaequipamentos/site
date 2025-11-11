@@ -69,8 +69,8 @@
       <div class="flex flex-col w-full max-w-[600px] mt-10">
         <span class="text-xl text-red">Fale com a</span>
         <span class="text-2xl mb-4">TWA Equipamentos agora mesmo!</span>
-        <span class="text-sm text-grey500">
-          Entre em contato com a Equipe do Comercial da TWA Equipamentos agora mesmo e tire todas as suas dúvidas sobre a locação de Guindastes e Guindautos, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
+        <span class="text-md text-grey500">
+          Entre em contato com a Equipe do Comercial da TWA Equipamentos agora mesmo e tire todas as suas dúvidas, solicite seu orçamento e tenha um serviço de extrema qualidade e segurança.
         </span>
       </div>
       <div class="mt-4 w-[255px]">
