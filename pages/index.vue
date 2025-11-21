@@ -169,7 +169,7 @@
                       Cada projeto é planejado e executado com rigor, assegurando qualidade, cumprimento de prazos e excelente custo-benefício. Utilizamos matérias-primas de procedência comprovada e contamos com fornecedores criteriosamente selecionados.
                     </div>
                     <div class="text-md">
-                      Fabricamos e montamos diversos equipamentos industriais, como Curvas e Dutos Lavadores de Gases, Dutos de Gases, Economizadores, Guinchos Hilo, além de Plataformas e Mezaninos — sempre com foco em desempenho, segurança e as necessidades de cada cliente.
+                      Fabricamos e montamos diversos equipamentos industriais, como Lavadores de Gases, Dutos de Gases, Economizadores e Guinchos Hilo, sempre com foco em desempenho, segurança e as necessidades de cada cliente.
                     </div>
                   </div>
                 </div>
@@ -194,12 +194,12 @@
               <div class="flex">
                 <div class="lg:pr-8">
                   <div class="my-2 flex flex-column">
-                    <div class="text-md mb-4">
-                      Seja na produção em larga escala ou em setores de alta especialização, a confiabilidade e a eficiência dos equipamentos industriais são fundamentais para o sucesso das operações. Nesse contexto, a TWA Equipamentos e Serviços Industriais se destaca na linha de frente, oferecendo serviços especializados de manutenção industrial, com uma equipe técnica altamente qualificada.
-                    </div>
-                    <div class="text-md">
-                      Com foco em excelência, agilidade e pontualidade, realizamos a manutenção de diversos equipamentos industriais, garantindo desempenho contínuo, segurança operacional e redução de paradas não planejadas.
-                    </div>
+                    <div class="text-md mb-4"> 
+                      A manutenção adequada de equipamentos industriais é essencial para garantir a continuidade das operações, evitar falhas inesperadas e prolongar a vida útil dos ativos. Pensando nisso, a TWA Equipamentos e Serviços Industriais atua com excelência na área de manutenção industrial, oferecendo soluções técnicas confiáveis realizadas por uma equipe altamente qualificada. 
+                    </div> 
+                    <div class="text-md"> 
+                      Com foco em agilidade, precisão e pontualidade, realizamos a manutenção preventiva, corretiva e preditiva de diversos equipamentos industriais, assegurando maior segurança operacional, redução de paradas não programadas e o melhor desempenho possível para cada máquina.
+                     </div>
                   </div>
                 </div>
               </div>
